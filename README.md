@@ -50,7 +50,7 @@ As principais responsabilidades deste módulo são:
   
 Essa abordagem é didaticamente importante, pois ensina aos alunos o **conceito de modularização** — dividir um programa em partes menores e independentes para facilitar a manutenção, teste e reutilização.
 
-### `principal.py`
+### `main.py`
 
 Arquivo responsável por **inicializar o programa**.  
 É nele que as funções de `etapas[1, 2, 3.py` são chamadas, definindo a **sequência de execução** da aplicação.
