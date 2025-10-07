@@ -25,8 +25,8 @@ A aplicação foi construída para **simular um sistema simples de gerenciamento
 
 PROJETO-App-de-tarefas/
 │
-├── etapas.py # Contém as etapas lógicas do funcionamento da aplicação
-├── principal.py # Arquivo principal responsável por executar o programa
+├── etapas[1, 2, 3].py # Contém as etapas lógicas do funcionamento da aplicação
+├── main.py # Arquivo principal responsável por executar o programa
 └── README.md # Documento descritivo do projeto
 
 
@@ -36,7 +36,7 @@ PROJETO-App-de-tarefas/
 
 O código foi dividido em módulos para facilitar o aprendizado e a leitura do programa:
 
-### `etapas.py`
+### `etapas[1, 2, 3].py`
 
 Este arquivo contém **funções modulares** que representam cada parte do funcionamento da aplicação.  
 As principais responsabilidades deste módulo são:
@@ -53,11 +53,11 @@ Essa abordagem é didaticamente importante, pois ensina aos alunos o **conceito 
 ### `principal.py`
 
 Arquivo responsável por **inicializar o programa**.  
-É nele que as funções de `etapas.py` são chamadas, definindo a **sequência de execução** da aplicação.
+É nele que as funções de `etapas[1, 2, 3.py` são chamadas, definindo a **sequência de execução** da aplicação.
 
 Ele pode conter, por exemplo:
 - Um **loop principal** que mantém o programa em execução até que o usuário decida sair.  
-- Chamadas às funções de manipulação de tarefas (definidas em `etapas.py`).
+- Chamadas às funções de manipulação de tarefas (definidas em `etapas[1, 2, 3.py`).
 
 ---
 
@@ -91,7 +91,7 @@ cd PROJETO-App-de-tarefas
 
 Certifique-se de ter o Python 3.x instalado e rode o arquivo principal:
 ```bash
-python principal.py
+python main.py
 ```
 
 
